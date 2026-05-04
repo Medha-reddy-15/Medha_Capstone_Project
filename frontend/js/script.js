@@ -81,7 +81,7 @@ const MODELS = {
     landmarker: `${MODEL_BASE}/face_landmarker/face_landmarker/float16/1/face_landmarker.task`,
 };
 
-const BACKEND_URL = '';
+const BACKEND_URL = 'https://medha-capstone-project.onrender.com';
 
 async function waitForMPTasks() {
     if (window.FaceLandmarker) return;
